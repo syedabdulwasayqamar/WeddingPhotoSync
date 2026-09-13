@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Wedding Theme Colors -->
+    <color name="cream">#FFF8EF</color>
+    <color name="cream_dark">#F5E8D8</color>
+    <color name="gold">#D4AF37</color>
+    <color name="gold_light">#E8D5A3</color>
+    <color name="dark_green">#2E473B</color>
+    <color name="dark_green_light">#4A6B5A</color>
+    <color name="rose">#8B2942</color>
+    <color name="rose_light">#D46A82</color>
+    <color name="navy_text">#25406B</color>
+
+    <!-- Legacy colors (keep for compatibility) -->
+    <color name="teal_deep">#1F6F78</color>
+    <color name="pink_accent">#D46A82</color>
+    <color name="orange_border">#E39B4F</color>
+</resources>

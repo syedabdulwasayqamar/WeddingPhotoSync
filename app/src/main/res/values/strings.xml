@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Wasay\'s Whotos</string>
+    <string name="event_title">رسمِ مایوں</string>
+    <string name="event_subtitle">We hope you are enjoying the Mayon function of our beloved sister</string>
+    <string name="event_bride">DR. KHULUD QAMAR</string>
+    <string name="event_day">MONDAY</string>
+    <string name="event_date_num">13</string>
+    <string name="event_month_year">JULY 2026</string>
+    <string name="event_time">AT 8PM</string>
+    <string name="event_venue">Venue: Azeem Event Arena, C-43, Block 15, Gulistan e Johar</string>
+    <string name="event_rsvp">Kindly RSVP on\n031 8020 7130 · 033 0497 4257</string>
+</resources>

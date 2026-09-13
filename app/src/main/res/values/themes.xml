@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.WeddingPhotoSync" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/dark_green</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Navigation bar color -->
+        <item name="android:navigationBarColor">@color/dark_green</item>
+
+        <!-- Customize your light theme here -->
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorPrimaryVariant">@color/dark_green_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/gold</item>
+        <item name="colorSecondaryVariant">@color/gold_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:windowBackground">@color/cream</item>
+    </style>
+
+    <style name="Theme.WeddingPhotoSync" parent="Base.Theme.WeddingPhotoSync" />
+
+    <!-- Custom Button Style -->
+    <style name="WeddingButton" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">50dp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:paddingHorizontal">32dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:stateListAnimator">@animator/button_elevation</item>
+    </style>
+
+    <!-- Custom TextView Styles - Using Direct Font References -->
+    <style name="WeddingTitle" parent="android:Widget.TextView">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">@color/dark_green</item>
+        <!-- Direct font reference - change this to match your actual file name -->
+        <item name="android:fontFamily">@font/playfair_display_bold</item>
+        <item name="android:lineSpacingExtra">8dp</item>
+    </style>
+
+    <style name="WeddingSubtitle" parent="android:Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/navy_text</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+</resources>
