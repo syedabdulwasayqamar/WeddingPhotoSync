@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔐 Wasay\'s Whotos Admin"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/playfair_display_bold"
+        android:textColor="@color/navy_text"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/windowText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start: not set\nEnd: not set"
+        android:padding="12dp"
+        android:fontFamily="@font/poppins_regular"
+        android:background="@android:drawable/editbox_background"/>
+
+    <Button
+        android:id="@+id/setStartTimeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📅 Set Start Time"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/setEndTimeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="📅 Set End Time"/>
+
+    <Button
+        android:id="@+id/saveWindowButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💾 Save &amp; Sync Photos"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_marginTop="16dp"/>
+
+    <!-- NEW: Force Stop Sync Button -->
+    <Button
+        android:id="@+id/forceStopButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🛑 Force Stop All Syncs"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/adminStatusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="@font/poppins_regular"
+        android:textAlignment="center"
+        android:layout_marginTop="12dp"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/viewDevicesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📱 View Registered Devices"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:id="@+id/backToWelcomeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⬅️ Back to Welcome Screen"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@android:color/darker_gray"/>
+
+</LinearLayout>

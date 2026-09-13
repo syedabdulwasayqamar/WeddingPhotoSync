@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/cardContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="28dp"
+            android:gravity="center"
+            android:elevation="8dp">
+
+            <TextView
+                android:id="@+id/logoImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_title"
+                android:textSize="34sp"
+                android:textColor="@color/navy_text"
+                android:fontFamily="@font/playfair_display_bold"
+                android:layout_marginTop="12dp"
+                android:alpha="0"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_subtitle"
+                android:textSize="16sp"
+                android:textColor="@color/navy_text"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:alpha="0"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/tagline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_bride"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/navy_text"
+                android:fontFamily="@font/playfair_display_bold"
+                android:layout_marginTop="16dp"
+                android:alpha="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ON"
+                android:textSize="14sp"
+                android:textColor="@color/gold"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_day"
+                android:textSize="14sp"
+                android:textColor="@color/navy_text"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_date_num"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                android:textColor="@color/navy_text"
+                android:fontFamily="@font/playfair_display_bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_month_year"
+                android:textSize="14sp"
+                android:textColor="@color/navy_text"
+                android:fontFamily="@font/poppins_regular" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_time"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/rose"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_venue"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/navy_text"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:layout_marginTop="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_rsvp"
+                android:textSize="13sp"
+                android:textColor="@color/navy_text"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:layout_marginTop="12dp" />
+
+            <Button
+                android:id="@+id/continueToRegistrationButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="Continue"
+                android:textColor="@color/cream"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/rose"
+                android:elevation="4dp"
+                app:cornerRadius="50dp"
+                android:alpha="0"
+                android:translationY="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
