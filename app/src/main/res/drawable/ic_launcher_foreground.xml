@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Marigold (Genda Phool) Garland along the edges -->
+    <!-- Large Orange Flowers -->
+    <path android:fillColor="#FF9800" android:pathData="M54,12m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    <path android:fillColor="#FF9800" android:pathData="M96,54m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    <path android:fillColor="#FF9800" android:pathData="M54,96m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    <path android:fillColor="#FF9800" android:pathData="M12,54m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+
+    <!-- Medium Yellow Flowers -->
+    <path android:fillColor="#FFEB3B" android:pathData="M84,30m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    <path android:fillColor="#FFEB3B" android:pathData="M84,78m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    <path android:fillColor="#FFEB3B" android:pathData="M24,78m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    <path android:fillColor="#FFEB3B" android:pathData="M24,30m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+
+    <!-- Connecting Green Leaves for the Garland -->
+    <path android:fillColor="#4CAF50" android:pathData="M54,17 L84,30 L91,54 L84,78 L54,91 L24,78 L17,54 L24,30 Z" android:strokeWidth="1" android:strokeColor="#388E3C"/>
+
+    <!-- Abstract Camera in the Center -->
+    <!-- Camera Body (Styled as a Golden Frame) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M35,42 Q35,40 37,40 L71,40 Q73,40 73,42 L73,68 Q73,70 71,70 L37,70 Q35,70 35,68 Z" />
+
+    <!-- Camera Lens (Circular Mandala Style) -->
+    <path
+        android:fillColor="#880E4F"
+        android:pathData="M54,55m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M54,55m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0" />
+    <path
+        android:fillColor="#880E4F"
+        android:pathData="M54,55m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-4 0" />
+
+    <!-- Flash / Viewfinder Details -->
+    <path android:fillColor="#FFEB3B" android:pathData="M65,45h4v4h-4z" />
+    <path android:fillColor="#FFD700" android:pathData="M48,36h12v4h-12z" />
+
+    <!-- Small Mehndi Dot Accents around the Camera -->
+    <path android:fillColor="#FFD700" android:pathData="M54,32m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+    <path android:fillColor="#FFD700" android:pathData="M30,55m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+    <path android:fillColor="#FFD700" android:pathData="M78,55m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+    <path android:fillColor="#FFD700" android:pathData="M54,78m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+
+</vector>
